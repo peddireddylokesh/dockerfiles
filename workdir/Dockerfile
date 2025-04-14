@@ -3,6 +3,6 @@ RUN mkdir /tmp/work-dir-demo
 RUN cd /tmp/work-dir-demo
 RUN pwd
 RUN echo "Hello World" > /tmp/work-dir-demo/hello.txt
-CMD [ "sleep",150 ]
+CMD ["sleep","150"]
 
 
