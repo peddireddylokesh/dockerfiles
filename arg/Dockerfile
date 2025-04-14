@@ -4,5 +4,6 @@ ENV course="devops with aws"\
     trainer="ShivaKumar Reddy"\
     duration="3 months"
 ARG username=loki
+ENV username=$username
 RUN echo "Hello user : ${username}, image version : ${version}" > /tmp/devops.txt
 CMD ["sleep","150"]
