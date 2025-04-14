@@ -3,5 +3,5 @@ ENV course="devops with aws"\
     trainer="ShivaKumar Reddy"\
     duration="3 months"
 ARG ${username:- some_user}
-RUN echo "course is ${course}" > /tmp/devops.txt
+RUN echo "course is ${course}.this is username ${username}" > /tmp/devops.txt
 CMD ["sleep","150"]
